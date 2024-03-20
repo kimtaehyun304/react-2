@@ -9,6 +9,7 @@
 
 리액트 설치
 
+[npm err exit handler never called 에러 해결]
 npm install -g npm@latest
 npx create-react-app my-app 
 
