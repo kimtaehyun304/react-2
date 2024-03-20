@@ -9,11 +9,11 @@
 
 리액트 설치
 
-[npm err exit handler never called 에러 해결]
-npm install -g npm@latest
-npx create-react-app my-app 
+[npm err exit handler never called 에러 해결] <br>
+npm install -g npm@latest <br>
+npx create-react-app my-app <br>
 
-안되면 create 명령어 여러번 
+안되면 create 명령어 여러번 <br>
 
 ## 3월 13일 강의
 교수님 짱짱맨
