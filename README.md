@@ -1,5 +1,14 @@
 # 김태현 202030411
 
+## 3월 27일 강의
+JSX: 자바스크립트 확장 문법  
+
+옳바른 워킹 디렉토리  
+ㄴ프로젝트1  
+ㄴ프로젝트2  
+ㄴREADME.MD  
+
+리액트는 리얼타임이기때문에, 디렉토리 열면 바로 NPM START  
 
 
 ## 3월 20일 강의
@@ -9,11 +18,11 @@
 
 리액트 설치
 
-[npm err exit handler never called 에러 해결] <br>
-npm install -g npm@latest <br>
-npx create-react-app my-app <br>
+[npm err exit handler never called 에러 해결]  
+npm install -g npm@latest  
+npx create-react-app my-app  
 
-안되면 create 명령어 여러번 <br>
+안되면 create 명령어 여러번  
 
 ## 3월 13일 강의
 교수님 짱짱맨
