@@ -9,6 +9,9 @@ function welcome(props){
     return 태그
 }  
 
+함수형은 import react 안해도댐  
+
+
 클래스형  
 DOM.render(){
     
