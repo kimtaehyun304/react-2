@@ -1,13 +1,42 @@
 # 김태현 202030411
 
+## 6월 12일 강의
+스타일링(CSS)  
+CSS: 크게 선택자와 스타이로 구성돼있다.  
+선택자 유형: 엘리먼트 선택자(태그 자체), ID(#), 클래스 선택자(.), 유니버셜 선택자(*)-모든 엘리먼트에 적용,  
+그룹 선택자-ex) h1,h2,P{}  
+상태와 관련된 선택자: :hover, :active, :focus, :checked, :first-child, :last-child  
+
+레이아웃  
+display(태그 구조 배치), visibility(가시성), position(태그 자세한 배치)  
+★display flex  
+row: 아이템을 가로 순서대로 배치  
+column: 아이템을 세로 순서대로 배치  
+참고:-reverse 붙이면 역방향으로 배치한다.  
+align-items: 수직 기준  
+justify-content: 수평 기준  
+
+리액트는 스타일 컴포넌트를 통해 CSS 문법을 그대로 사용할 수 있다.  
+
 ## 6월 11일 강의
 합성: 여러개의 컴포넌트를 합쳐서 새로운 컴포넌트를 만드는 것  
 +합성 방법: Containment, Specialization, Containment+Specialization  
+
+컨텍스트: 컴포너트 사이에서 props를 통해 데이터를 전달하는 방식 대신 컴포넌트 트리를 통해 전달하는 것  
+ex) props는 하위 컴포넌트가 10단계 밑에 있다면, 10번이나 props를 타고 하위 컴포넌트로 내려가야한다. -> 컴포넌트 트리는 한번에 전송 가능  
+근데 무조건 컨텍스트를 사용하면 재사용성이 떨어지기 때문에, 적합한 경우에 사용해야 한다.  
+
+클래스 컴포넌트  
+컨텍스트 사용법: React.createContext(기본값)  
+속성: Context.Provider & Class.contextType & Context.Consumer & Context.displayName  
+
+함수 컴포넌트: useContext(컨텍스트 객체)  
 
 1) Containment (포함)  
 하위 컴포넌트르 포함하는 형태의 합성 방법이다.  
 2) Specialization(전문화)  
 범용적인 개념을 구별이 되게 구체화 하는것이다. ex) 상속과 비슷하다  
+참고: 메타는 상속 기반의 컴포넌트 생성 방법을 만들려했으나, 실패하여 합성을 도입했다고 한다.
 
 ## 6월 5일 강의
 State 끌어올리기: 하나의 데이터를 여러개의 컴포넌트에서 표현해야할 때, 각 컴포넌트의 state에서 데이터를 보관하지않고,  
